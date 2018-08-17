@@ -36,7 +36,7 @@ Use gomock gernerate mock interface in the `proto/` which grpc gernerate.
 $mockgen github.com/freddy50806/gRPCTestWithGomock/Unary/proto ExampleServiceClient > mock_example/mock_example.go
 ```
 
-Run test in `client/main_test.go`
+Run test in `client/main_test.go`
 
 #### Streaming
 
@@ -53,7 +53,7 @@ Use gomock gernerate mock interface in the `proto/` which grpc gernerate.
 $mockgen github.com/freddy50806/gRPCTestWithGomock/Streaming/proto ExampleServiceClient,ExampleService_DisplayLinesClient > mock_example/mock_example.go
 ```
 
-Run test in `client/main_test.go`
+Run test in `client/main_test.go`
 
 #### Bi-Streaming
 
