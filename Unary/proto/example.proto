@@ -1,0 +1,11 @@
+syntax = "proto3";
+package example;
+service ExampleService{
+    rpc IsEven(Request)returns(Reply){}
+}
+message Request{
+    int32 num=1;
+}
+message Reply{
+    bool answer=1;
+}

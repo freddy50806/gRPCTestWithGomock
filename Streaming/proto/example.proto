@@ -1,0 +1,11 @@
+syntax = "proto3";
+package example;
+service ExampleService{
+    rpc DisplayLines(Request)returns(stream Reply){}
+}
+message Request{
+    int32 num=1;
+}
+message Reply{
+    string data=1;
+}
